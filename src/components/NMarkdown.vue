@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import { marked, type Token } from "marked";
 import { computed, h, type Component } from "vue";
-import { NH1, NH2, NH3, NH4, NH5, NH6, NCode, NHr, NP } from "naive-ui";
+import { NH1, NH2, NH3, NH4, NH5, NH6, NCode, NHr, NP, NText } from "naive-ui";
 
 const props = defineProps<{
   md: string;
@@ -55,6 +55,22 @@ const renderFunction = (token: Token): Component | undefined => {
       return h(NP, {}, token.tokens.map(renderFunction));
     } else {
       return h(NP, {}, token.text);
+    }
+  }
+
+  if (token.type === "strong") {
+    if (token.tokens && token.tokens.length > 0) {
+      return h(NText, { strong: true }, token.tokens.map(renderFunction));
+    } else {
+      return h(NText, { strong: true }, token.text);
+    }
+  }
+
+  if (token.type==="em") {
+    if (token.tokens && token.tokens.length > 0) {
+      return h(NText, { italic: true }, token.tokens.map(renderFunction));
+    } else {
+      return h(NText, { italic: true }, token.text);
     }
   }
 
