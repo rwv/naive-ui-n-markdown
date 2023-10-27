@@ -1,7 +1,10 @@
 <template>
-  <div v-for="(item, index) in parsed" :key="index">
-    <component :is="renderFunction(item)"> </component>
-  </div>
+  <component
+    :is="renderFunction(item)"
+    v-for="(item, index) in parsed"
+    :key="index"
+  >
+  </component>
 </template>
 
 <script setup lang="ts">
@@ -43,7 +46,7 @@ const renderFunction = (token: Token): Component | undefined => {
     return h(NCode, { code: token.text, language: token.lang });
   }
 
-  if (token.type === "hr" ) {
+  if (token.type === "hr") {
     return h(NHr);
   }
 
@@ -54,7 +57,6 @@ const renderFunction = (token: Token): Component | undefined => {
       return h(NP, {}, token.text);
     }
   }
-
 
   return undefined;
 };
