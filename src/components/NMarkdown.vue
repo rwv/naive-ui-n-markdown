@@ -1,14 +1,13 @@
 <template>
   <div v-for="(item, index) in parsed" :key="index">
-    <component :is="renderFunction(item)">
-    </component>
+    <component :is="renderFunction(item)"> </component>
   </div>
 </template>
 
 <script setup lang="ts">
 import { marked, type Token } from "marked";
 import { computed, h, type Component } from "vue";
-import { NH1, NH2, NH3, NH4, NH5, NH6 } from "naive-ui";
+import { NH1, NH2, NH3, NH4, NH5, NH6, NCode, NHr } from "naive-ui";
 
 const props = defineProps<{
   md: string;
@@ -20,22 +19,35 @@ const parsed = computed(() => {
 });
 
 const renderFunction = (token: Token): Component | undefined => {
+  if (token.type === "text") {
+    return h("span", {}, token.text);
+  }
+
   if (token.type === "heading") {
     const depthMaps: Record<number, Component> = {
-        1: NH1,
-        2: NH2,
-        3: NH3,
-        4: NH4,
-        5: NH5,
-        6: NH6,
+      1: NH1,
+      2: NH2,
+      3: NH3,
+      4: NH4,
+      5: NH5,
+      6: NH6,
+    };
+    if (token.tokens && token.tokens.length > 0) {
+      return h(depthMaps[token.depth], token.tokens.map(renderFunction));
+    } else {
+      return h(depthMaps[token.depth], {}, token.text);
     }
-
-    return h(depthMaps[token.depth], {}, token.text);
-
-
-
-  } else {
-    return undefined;
   }
+
+  if (token.type === "code") {
+    return h(NCode, { code: token.text, language: token.lang });
+  }
+
+  if (token.type === "hr" ) {
+    return h(NHr);
+  }
+
+
+  return undefined;
 };
 </script>
