@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { marked, type Token } from "marked";
 import { computed, h, type Component } from "vue";
-import { NH1, NH2, NH3, NH4, NH5, NH6, NCode, NHr } from "naive-ui";
+import { NH1, NH2, NH3, NH4, NH5, NH6, NCode, NHr, NP } from "naive-ui";
 
 const props = defineProps<{
   md: string;
@@ -20,7 +20,7 @@ const parsed = computed(() => {
 
 const renderFunction = (token: Token): Component | undefined => {
   if (token.type === "text") {
-    return h("span", {}, token.text);
+    return h("span", {}, token.raw);
   }
 
   if (token.type === "heading") {
@@ -45,6 +45,14 @@ const renderFunction = (token: Token): Component | undefined => {
 
   if (token.type === "hr" ) {
     return h(NHr);
+  }
+
+  if (token.type === "paragraph") {
+    if (token.tokens && token.tokens.length > 0) {
+      return h(NP, {}, token.tokens.map(renderFunction));
+    } else {
+      return h(NP, {}, token.text);
+    }
   }
 
 
