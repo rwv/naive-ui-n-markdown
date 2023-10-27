@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import { marked, type Token } from "marked";
 import { computed, h, type Component } from "vue";
-import { NH1, NH2, NH3, NH4, NH5, NH6, NCode, NHr, NP, NText, NBlockquote } from "naive-ui";
+import { NH1, NH2, NH3, NH4, NH5, NH6, NCode, NHr, NP, NText, NBlockquote, NOl, NUl, NLi } from "naive-ui";
 
 const props = defineProps<{
   md: string;
@@ -81,6 +81,23 @@ const renderFunction = (token: Token): Component | undefined => {
       return h(NBlockquote, {}, token.text);
     }
   }
+
+  if (token.type === "list") {
+    if (token.ordered) {
+        return h(NOl, {}, token.items.map(renderFunction))
+    } else {
+        return h(NUl, {}, token.items.map(renderFunction))
+    }
+  }
+
+  if (token.type === "list_item") {
+    if (token.tokens && token.tokens.length > 0) {
+      return h(NLi, {}, token.tokens.map(renderFunction));
+    } else {
+      return h(NLi, {}, token.text);
+    }
+  }
+
 
   return undefined;
 };
