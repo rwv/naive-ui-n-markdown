@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { NCode } from "naive-ui";
+import { NCode, NGrid, NGi } from "naive-ui";
 import NMarkdown from "./components/NMarkdown.vue";
-import NMarkdownParsed from "./components/NMarkdownParsed.vue";
 import SampleMD from "./sample.md?raw";
+import Markdown from "./components/Markdown.vue";
 
 const md = SampleMD;
 </script>
@@ -11,11 +11,17 @@ const md = SampleMD;
   <div style="padding: 5em">
     <header>Naive UI NMarkdown</header>
     <main>
-      <n-markdown :md="md" />
-      <NMarkdownParsed :md="md" />
-    </main>
-    <main style="margin-top: 100px">
-      <n-code :code="md" />
+      <n-grid x-gap="30" :cols="3">
+        <n-gi>
+          <n-markdown :md="md" />
+        </n-gi>
+        <n-gi>
+          <Markdown :md="md" />
+        </n-gi>
+        <n-gi>
+          <n-code :code="md" />
+        </n-gi>
+      </n-grid>
     </main>
   </div>
 </template>
