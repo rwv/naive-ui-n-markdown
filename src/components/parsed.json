@@ -1,0 +1,1950 @@
+[
+  {
+    "type": "space",
+    "raw": "\n"
+  },
+  {
+    "type": "heading",
+    "raw": "# h1 Heading 8-)\n",
+    "depth": 1,
+    "text": "h1 Heading 8-)",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "h1 Heading 8-)",
+        "text": "h1 Heading 8-)"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "## h2 Heading\n",
+    "depth": 2,
+    "text": "h2 Heading",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "h2 Heading",
+        "text": "h2 Heading"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "### h3 Heading\n",
+    "depth": 3,
+    "text": "h3 Heading",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "h3 Heading",
+        "text": "h3 Heading"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "#### h4 Heading\n",
+    "depth": 4,
+    "text": "h4 Heading",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "h4 Heading",
+        "text": "h4 Heading"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "##### h5 Heading\n",
+    "depth": 5,
+    "text": "h5 Heading",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "h5 Heading",
+        "text": "h5 Heading"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "###### h6 Heading\n\n\n",
+    "depth": 6,
+    "text": "h6 Heading",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "h6 Heading",
+        "text": "h6 Heading"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "## Horizontal Rules\n\n",
+    "depth": 2,
+    "text": "Horizontal Rules",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Horizontal Rules",
+        "text": "Horizontal Rules"
+      }
+    ]
+  },
+  {
+    "type": "hr",
+    "raw": "___\n\n"
+  },
+  {
+    "type": "hr",
+    "raw": "---\n\n"
+  },
+  {
+    "type": "hr",
+    "raw": "***\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Typographic replacements\n\n",
+    "depth": 2,
+    "text": "Typographic replacements",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Typographic replacements",
+        "text": "Typographic replacements"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Enable typographer option to see result.",
+    "text": "Enable typographer option to see result.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Enable typographer option to see result.",
+        "text": "Enable typographer option to see result."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "(c) (C) (r) (R) (tm) (TM) (p) (P) +-",
+    "text": "(c) (C) (r) (R) (tm) (TM) (p) (P) +-",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "(c) (C) (r) (R) (tm) (TM) (p) (P) +-",
+        "text": "(c) (C) (r) (R) (tm) (TM) (p) (P) +-"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "test.. test... test..... test?..... test!....",
+    "text": "test.. test... test..... test?..... test!....",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "test.. test... test..... test?..... test!....",
+        "text": "test.. test... test..... test?..... test!...."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "!!!!!! ???? ,,  -- ---",
+    "text": "!!!!!! ???? ,,  -- ---",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "!!!!!! ???? ,,  -- ---",
+        "text": "!!!!!! ???? ,,  -- ---"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "\"Smartypants, double quotes\" and 'single quotes'",
+    "text": "\"Smartypants, double quotes\" and 'single quotes'",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "\"Smartypants, double quotes\" and 'single quotes'",
+        "text": "&quot;Smartypants, double quotes&quot; and &#39;single quotes&#39;"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Emphasis\n\n",
+    "depth": 2,
+    "text": "Emphasis",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Emphasis",
+        "text": "Emphasis"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "**This is bold text**",
+    "text": "**This is bold text**",
+    "tokens": [
+      {
+        "type": "strong",
+        "raw": "**This is bold text**",
+        "text": "This is bold text",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This is bold text",
+            "text": "This is bold text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "__This is bold text__",
+    "text": "__This is bold text__",
+    "tokens": [
+      {
+        "type": "strong",
+        "raw": "__This is bold text__",
+        "text": "This is bold text",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This is bold text",
+            "text": "This is bold text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "*This is italic text*",
+    "text": "*This is italic text*",
+    "tokens": [
+      {
+        "type": "em",
+        "raw": "*This is italic text*",
+        "text": "This is italic text",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This is italic text",
+            "text": "This is italic text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "_This is italic text_",
+    "text": "_This is italic text_",
+    "tokens": [
+      {
+        "type": "em",
+        "raw": "_This is italic text_",
+        "text": "This is italic text",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This is italic text",
+            "text": "This is italic text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "~~Strikethrough~~",
+    "text": "~~Strikethrough~~",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "~~Strikethrough~~",
+        "text": "~~Strikethrough~~"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Blockquotes\n\n\n",
+    "depth": 2,
+    "text": "Blockquotes",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Blockquotes",
+        "text": "Blockquotes"
+      }
+    ]
+  },
+  {
+    "type": "blockquote",
+    "raw": "> Blockquotes can also be nested...\n>> ...by using additional greater-than signs right next to each other...\n> > > ...or with spaces between arrows.\n",
+    "tokens": [
+      {
+        "type": "paragraph",
+        "raw": "Blockquotes can also be nested...\n",
+        "text": "Blockquotes can also be nested...",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Blockquotes can also be nested...",
+            "text": "Blockquotes can also be nested..."
+          }
+        ]
+      },
+      {
+        "type": "blockquote",
+        "raw": "> ...by using additional greater-than signs right next to each other...\n> > ...or with spaces between arrows.",
+        "tokens": [
+          {
+            "type": "paragraph",
+            "raw": "...by using additional greater-than signs right next to each other...\n",
+            "text": "...by using additional greater-than signs right next to each other...",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "...by using additional greater-than signs right next to each other...",
+                "text": "...by using additional greater-than signs right next to each other..."
+              }
+            ]
+          },
+          {
+            "type": "blockquote",
+            "raw": "> ...or with spaces between arrows.",
+            "tokens": [
+              {
+                "type": "paragraph",
+                "raw": "...or with spaces between arrows.",
+                "text": "...or with spaces between arrows.",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "...or with spaces between arrows.",
+                    "text": "...or with spaces between arrows."
+                  }
+                ]
+              }
+            ],
+            "text": "...or with spaces between arrows."
+          }
+        ],
+        "text": "...by using additional greater-than signs right next to each other...\n> ...or with spaces between arrows."
+      }
+    ],
+    "text": "Blockquotes can also be nested...\n> ...by using additional greater-than signs right next to each other...\n> > ...or with spaces between arrows."
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Lists\n\n",
+    "depth": 2,
+    "text": "Lists",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Lists",
+        "text": "Lists"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Unordered",
+    "text": "Unordered",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Unordered",
+        "text": "Unordered"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "list",
+    "raw": "+ Create a list by starting a line with `+`, `-`, or `*`\n+ Sub-lists are made by indenting 2 spaces:\n  - Marker character change forces new list start:\n    * Ac tristique libero volutpat at\n    + Facilisis in pretium nisl aliquet\n    - Nulla volutpat aliquam velit\n+ Very easy!",
+    "ordered": false,
+    "start": "",
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "+ Create a list by starting a line with `+`, `-`, or `*`\n",
+        "task": false,
+        "loose": false,
+        "text": "Create a list by starting a line with `+`, `-`, or `*`",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Create a list by starting a line with `+`, `-`, or `*`",
+            "text": "Create a list by starting a line with `+`, `-`, or `*`",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Create a list by starting a line with ",
+                "text": "Create a list by starting a line with "
+              },
+              {
+                "type": "codespan",
+                "raw": "`+`",
+                "text": "+"
+              },
+              {
+                "type": "text",
+                "raw": ", ",
+                "text": ", "
+              },
+              {
+                "type": "codespan",
+                "raw": "`-`",
+                "text": "-"
+              },
+              {
+                "type": "text",
+                "raw": ", or ",
+                "text": ", or "
+              },
+              {
+                "type": "codespan",
+                "raw": "`*`",
+                "text": "*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "+ Sub-lists are made by indenting 2 spaces:\n  - Marker character change forces new list start:\n    * Ac tristique libero volutpat at\n    + Facilisis in pretium nisl aliquet\n    - Nulla volutpat aliquam velit\n",
+        "task": false,
+        "loose": false,
+        "text": "Sub-lists are made by indenting 2 spaces:\n- Marker character change forces new list start:\n  * Ac tristique libero volutpat at\n  + Facilisis in pretium nisl aliquet\n  - Nulla volutpat aliquam velit",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Sub-lists are made by indenting 2 spaces:\n",
+            "text": "Sub-lists are made by indenting 2 spaces:",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Sub-lists are made by indenting 2 spaces:",
+                "text": "Sub-lists are made by indenting 2 spaces:"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "raw": "- Marker character change forces new list start:\n  * Ac tristique libero volutpat at\n  + Facilisis in pretium nisl aliquet\n  - Nulla volutpat aliquam velit",
+            "ordered": false,
+            "start": "",
+            "loose": false,
+            "items": [
+              {
+                "type": "list_item",
+                "raw": "- Marker character change forces new list start:\n  * Ac tristique libero volutpat at\n  + Facilisis in pretium nisl aliquet\n  - Nulla volutpat aliquam velit",
+                "task": false,
+                "loose": false,
+                "text": "Marker character change forces new list start:\n* Ac tristique libero volutpat at\n+ Facilisis in pretium nisl aliquet\n- Nulla volutpat aliquam velit",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Marker character change forces new list start:\n",
+                    "text": "Marker character change forces new list start:",
+                    "tokens": [
+                      {
+                        "type": "text",
+                        "raw": "Marker character change forces new list start:",
+                        "text": "Marker character change forces new list start:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list",
+                    "raw": "* Ac tristique libero volutpat at\n",
+                    "ordered": false,
+                    "start": "",
+                    "loose": false,
+                    "items": [
+                      {
+                        "type": "list_item",
+                        "raw": "* Ac tristique libero volutpat at",
+                        "task": false,
+                        "loose": false,
+                        "text": "Ac tristique libero volutpat at",
+                        "tokens": [
+                          {
+                            "type": "text",
+                            "raw": "Ac tristique libero volutpat at",
+                            "text": "Ac tristique libero volutpat at",
+                            "tokens": [
+                              {
+                                "type": "text",
+                                "raw": "Ac tristique libero volutpat at",
+                                "text": "Ac tristique libero volutpat at"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list",
+                    "raw": "+ Facilisis in pretium nisl aliquet\n",
+                    "ordered": false,
+                    "start": "",
+                    "loose": false,
+                    "items": [
+                      {
+                        "type": "list_item",
+                        "raw": "+ Facilisis in pretium nisl aliquet",
+                        "task": false,
+                        "loose": false,
+                        "text": "Facilisis in pretium nisl aliquet",
+                        "tokens": [
+                          {
+                            "type": "text",
+                            "raw": "Facilisis in pretium nisl aliquet",
+                            "text": "Facilisis in pretium nisl aliquet",
+                            "tokens": [
+                              {
+                                "type": "text",
+                                "raw": "Facilisis in pretium nisl aliquet",
+                                "text": "Facilisis in pretium nisl aliquet"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list",
+                    "raw": "- Nulla volutpat aliquam velit",
+                    "ordered": false,
+                    "start": "",
+                    "loose": false,
+                    "items": [
+                      {
+                        "type": "list_item",
+                        "raw": "- Nulla volutpat aliquam velit",
+                        "task": false,
+                        "loose": false,
+                        "text": "Nulla volutpat aliquam velit",
+                        "tokens": [
+                          {
+                            "type": "text",
+                            "raw": "Nulla volutpat aliquam velit",
+                            "text": "Nulla volutpat aliquam velit",
+                            "tokens": [
+                              {
+                                "type": "text",
+                                "raw": "Nulla volutpat aliquam velit",
+                                "text": "Nulla volutpat aliquam velit"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "+ Very easy!",
+        "task": false,
+        "loose": false,
+        "text": "Very easy!",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Very easy!",
+            "text": "Very easy!",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Very easy!",
+                "text": "Very easy!"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Ordered",
+    "text": "Ordered",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Ordered",
+        "text": "Ordered"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "list",
+    "raw": "1. Lorem ipsum dolor sit amet\n2. Consectetur adipiscing elit\n3. Integer molestie lorem at massa\n\n\n1. You can use sequential numbers...\n1. ...or keep all the numbers as `1.`",
+    "ordered": true,
+    "start": 1,
+    "loose": true,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "1. Lorem ipsum dolor sit amet\n",
+        "task": false,
+        "loose": true,
+        "text": "Lorem ipsum dolor sit amet",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Lorem ipsum dolor sit amet",
+            "text": "Lorem ipsum dolor sit amet",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Lorem ipsum dolor sit amet",
+                "text": "Lorem ipsum dolor sit amet"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "2. Consectetur adipiscing elit\n",
+        "task": false,
+        "loose": true,
+        "text": "Consectetur adipiscing elit",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Consectetur adipiscing elit",
+            "text": "Consectetur adipiscing elit",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Consectetur adipiscing elit",
+                "text": "Consectetur adipiscing elit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "3. Integer molestie lorem at massa\n\n\n",
+        "task": false,
+        "loose": true,
+        "text": "Integer molestie lorem at massa\n\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Integer molestie lorem at massa",
+            "text": "Integer molestie lorem at massa",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Integer molestie lorem at massa",
+                "text": "Integer molestie lorem at massa"
+              }
+            ]
+          },
+          {
+            "type": "space",
+            "raw": "\n\n"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "1. You can use sequential numbers...\n",
+        "task": false,
+        "loose": true,
+        "text": "You can use sequential numbers...",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "You can use sequential numbers...",
+            "text": "You can use sequential numbers...",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "You can use sequential numbers...",
+                "text": "You can use sequential numbers..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "1. ...or keep all the numbers as `1.`",
+        "task": false,
+        "loose": true,
+        "text": "...or keep all the numbers as `1.`",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "...or keep all the numbers as `1.`",
+            "text": "...or keep all the numbers as `1.`",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "...or keep all the numbers as ",
+                "text": "...or keep all the numbers as "
+              },
+              {
+                "type": "codespan",
+                "raw": "`1.`",
+                "text": "1."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Start numbering with offset:",
+    "text": "Start numbering with offset:",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Start numbering with offset:",
+        "text": "Start numbering with offset:"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "list",
+    "raw": "57. foo\n1. bar",
+    "ordered": true,
+    "start": 57,
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "57. foo\n",
+        "task": false,
+        "loose": false,
+        "text": "foo",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "foo",
+            "text": "foo",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "foo",
+                "text": "foo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "1. bar",
+        "task": false,
+        "loose": false,
+        "text": "bar",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "bar",
+            "text": "bar",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "bar",
+                "text": "bar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Code\n\n",
+    "depth": 2,
+    "text": "Code",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Code",
+        "text": "Code"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Inline `code`",
+    "text": "Inline `code`",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Inline ",
+        "text": "Inline "
+      },
+      {
+        "type": "codespan",
+        "raw": "`code`",
+        "text": "code"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Indented code",
+    "text": "Indented code",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Indented code",
+        "text": "Indented code"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "code",
+    "raw": "    // Some comments\n    line 1 of code\n    line 2 of code\n    line 3 of code\n\n\n",
+    "codeBlockStyle": "indented",
+    "text": "// Some comments\nline 1 of code\nline 2 of code\nline 3 of code"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Block code \"fences\"",
+    "text": "Block code \"fences\"",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Block code \"fences\"",
+        "text": "Block code &quot;fences&quot;"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "code",
+    "raw": "```\nSample text here...\n```",
+    "lang": "",
+    "text": "Sample text here..."
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Syntax highlighting",
+    "text": "Syntax highlighting",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Syntax highlighting",
+        "text": "Syntax highlighting"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "code",
+    "raw": "``` js\nvar foo = function (bar) {\n  return bar++;\n};\n\nconsole.log(foo(5));\n```",
+    "lang": "js",
+    "text": "var foo = function (bar) {\n  return bar++;\n};\n\nconsole.log(foo(5));"
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Tables\n\n",
+    "depth": 2,
+    "text": "Tables",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Tables",
+        "text": "Tables"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |",
+    "text": "| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |",
+        "text": "| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Right aligned columns",
+    "text": "Right aligned columns",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Right aligned columns",
+        "text": "Right aligned columns"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |",
+    "text": "| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |",
+        "text": "| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Links\n\n",
+    "depth": 2,
+    "text": "Links",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Links",
+        "text": "Links"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "[link text](http://dev.nodeca.com)",
+    "text": "[link text](http://dev.nodeca.com)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[link text](http://dev.nodeca.com)",
+        "href": "http://dev.nodeca.com",
+        "title": null,
+        "text": "link text",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "link text",
+            "text": "link text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "[link with title](http://nodeca.github.io/pica/demo/ \"title text!\")",
+    "text": "[link with title](http://nodeca.github.io/pica/demo/ \"title text!\")",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[link with title](http://nodeca.github.io/pica/demo/ \"title text!\")",
+        "href": "http://nodeca.github.io/pica/demo/",
+        "title": "title text!",
+        "text": "link with title",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "link with title",
+            "text": "link with title"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Autoconverted link https://github.com/nodeca/pica (enable linkify to see)",
+    "text": "Autoconverted link https://github.com/nodeca/pica (enable linkify to see)",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Autoconverted link https://github.com/nodeca/pica (enable linkify to see)",
+        "text": "Autoconverted link https://github.com/nodeca/pica (enable linkify to see)"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Images\n\n",
+    "depth": 2,
+    "text": "Images",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Images",
+        "text": "Images"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "![Minion](https://octodex.github.com/images/minion.png)\n![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg \"The Stormtroopocat\")",
+    "text": "![Minion](https://octodex.github.com/images/minion.png)\n![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg \"The Stormtroopocat\")",
+    "tokens": [
+      {
+        "type": "image",
+        "raw": "![Minion](https://octodex.github.com/images/minion.png)",
+        "href": "https://octodex.github.com/images/minion.png",
+        "title": null,
+        "text": "Minion"
+      },
+      {
+        "type": "text",
+        "raw": "\n",
+        "text": "\n"
+      },
+      {
+        "type": "image",
+        "raw": "![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg \"The Stormtroopocat\")",
+        "href": "https://octodex.github.com/images/stormtroopocat.jpg",
+        "title": "The Stormtroopocat",
+        "text": "Stormtroopocat"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Like links, Images also have a footnote style syntax",
+    "text": "Like links, Images also have a footnote style syntax",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Like links, Images also have a footnote style syntax",
+        "text": "Like links, Images also have a footnote style syntax"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "![Alt text][id]",
+    "text": "![Alt text][id]",
+    "tokens": [
+      {
+        "type": "image",
+        "raw": "![Alt text][id]",
+        "href": "https://octodex.github.com/images/dojocat.jpg",
+        "title": "The Dojocat",
+        "text": "Alt text"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "With a reference later in the document defining the URL location:",
+    "text": "With a reference later in the document defining the URL location:",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "With a reference later in the document defining the URL location:",
+        "text": "With a reference later in the document defining the URL location:"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Plugins\n\n",
+    "depth": 2,
+    "text": "Plugins",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Plugins",
+        "text": "Plugins"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "The killer feature of `markdown-it` is very effective support of\n[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).",
+    "text": "The killer feature of `markdown-it` is very effective support of\n[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "The killer feature of ",
+        "text": "The killer feature of "
+      },
+      {
+        "type": "codespan",
+        "raw": "`markdown-it`",
+        "text": "markdown-it"
+      },
+      {
+        "type": "text",
+        "raw": " is very effective support of\n",
+        "text": " is very effective support of\n"
+      },
+      {
+        "type": "link",
+        "raw": "[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin)",
+        "href": "https://www.npmjs.org/browse/keyword/markdown-it-plugin",
+        "title": null,
+        "text": "syntax plugins",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "syntax plugins",
+            "text": "syntax plugins"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "raw": ".",
+        "text": "."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [Emojies](https://github.com/markdown-it/markdown-it-emoji)\n\n",
+    "depth": 3,
+    "text": "[Emojies](https://github.com/markdown-it/markdown-it-emoji)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[Emojies](https://github.com/markdown-it/markdown-it-emoji)",
+        "href": "https://github.com/markdown-it/markdown-it-emoji",
+        "title": null,
+        "text": "Emojies",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Emojies",
+            "text": "Emojies"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "blockquote",
+    "raw": "> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:\n>\n> Shortcuts (emoticons): :-) :-( 8-) ;)\n\n",
+    "tokens": [
+      {
+        "type": "paragraph",
+        "raw": "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:",
+        "text": "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:",
+            "text": "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:"
+          }
+        ]
+      },
+      {
+        "type": "space",
+        "raw": "\n\n"
+      },
+      {
+        "type": "paragraph",
+        "raw": "Shortcuts (emoticons): :-) :-( 8-) ;)",
+        "text": "Shortcuts (emoticons): :-) :-( 8-) ;)",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Shortcuts (emoticons): :-) :-( 8-) ;)",
+            "text": "Shortcuts (emoticons): :-) :-( 8-) ;)"
+          }
+        ]
+      }
+    ],
+    "text": "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:\n\nShortcuts (emoticons): :-) :-( 8-) ;)"
+  },
+  {
+    "type": "paragraph",
+    "raw": "see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.",
+    "text": "see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "see ",
+        "text": "see "
+      },
+      {
+        "type": "link",
+        "raw": "[how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output)",
+        "href": "https://github.com/markdown-it/markdown-it-emoji#change-output",
+        "title": null,
+        "text": "how to change output",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "how to change output",
+            "text": "how to change output"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "raw": " with twemoji.",
+        "text": " with twemoji."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)\n\n",
+    "depth": 3,
+    "text": "[Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[Subscript](https://github.com/markdown-it/markdown-it-sub)",
+        "href": "https://github.com/markdown-it/markdown-it-sub",
+        "title": null,
+        "text": "Subscript",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Subscript",
+            "text": "Subscript"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "raw": " / ",
+        "text": " / "
+      },
+      {
+        "type": "link",
+        "raw": "[Superscript](https://github.com/markdown-it/markdown-it-sup)",
+        "href": "https://github.com/markdown-it/markdown-it-sup",
+        "title": null,
+        "text": "Superscript",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Superscript",
+            "text": "Superscript"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "list",
+    "raw": "- 19^th^\n- H~2~O",
+    "ordered": false,
+    "start": "",
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "- 19^th^\n",
+        "task": false,
+        "loose": false,
+        "text": "19^th^",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "19^th^",
+            "text": "19^th^",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "19^th^",
+                "text": "19^th^"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "- H~2~O",
+        "task": false,
+        "loose": false,
+        "text": "H~2~O",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "H~2~O",
+            "text": "H~2~O",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "H~2~O",
+                "text": "H~2~O"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [\\<ins>](https://github.com/markdown-it/markdown-it-ins)\n\n",
+    "depth": 3,
+    "text": "[\\<ins>](https://github.com/markdown-it/markdown-it-ins)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[\\<ins>](https://github.com/markdown-it/markdown-it-ins)",
+        "href": "https://github.com/markdown-it/markdown-it-ins",
+        "title": null,
+        "text": "\\<ins>",
+        "tokens": [
+          {
+            "type": "escape",
+            "raw": "\\<",
+            "text": "&lt;"
+          },
+          {
+            "type": "text",
+            "raw": "ins>",
+            "text": "ins&gt;"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "++Inserted text++",
+    "text": "++Inserted text++",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "++Inserted text++",
+        "text": "++Inserted text++"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [\\<mark>](https://github.com/markdown-it/markdown-it-mark)\n\n",
+    "depth": 3,
+    "text": "[\\<mark>](https://github.com/markdown-it/markdown-it-mark)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[\\<mark>](https://github.com/markdown-it/markdown-it-mark)",
+        "href": "https://github.com/markdown-it/markdown-it-mark",
+        "title": null,
+        "text": "\\<mark>",
+        "tokens": [
+          {
+            "type": "escape",
+            "raw": "\\<",
+            "text": "&lt;"
+          },
+          {
+            "type": "text",
+            "raw": "mark>",
+            "text": "mark&gt;"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "==Marked text==",
+    "text": "==Marked text==",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "==Marked text==",
+        "text": "==Marked text=="
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)\n\n",
+    "depth": 3,
+    "text": "[Footnotes](https://github.com/markdown-it/markdown-it-footnote)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[Footnotes](https://github.com/markdown-it/markdown-it-footnote)",
+        "href": "https://github.com/markdown-it/markdown-it-footnote",
+        "title": null,
+        "text": "Footnotes",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Footnotes",
+            "text": "Footnotes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Footnote 1 link[^first].",
+    "text": "Footnote 1 link[^first].",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Footnote 1 link[^first].",
+        "text": "Footnote 1 link[^first]."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Footnote 2 link[^second].",
+    "text": "Footnote 2 link[^second].",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Footnote 2 link[^second].",
+        "text": "Footnote 2 link[^second]."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Inline footnote^[Text of inline footnote] definition.",
+    "text": "Inline footnote^[Text of inline footnote] definition.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Inline footnote^[Text of inline footnote] definition.",
+        "text": "Inline footnote^[Text of inline footnote] definition."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Duplicated footnote reference[^second].",
+    "text": "Duplicated footnote reference[^second].",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Duplicated footnote reference[^second].",
+        "text": "Duplicated footnote reference[^second]."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "[^first]: Footnote **can have markup**",
+    "text": "[^first]: Footnote **can have markup**",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "[^first]: Footnote ",
+        "text": "[^first]: Footnote "
+      },
+      {
+        "type": "strong",
+        "raw": "**can have markup**",
+        "text": "can have markup",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "can have markup",
+            "text": "can have markup"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "code",
+    "raw": "    and multiple paragraphs.\n\n",
+    "codeBlockStyle": "indented",
+    "text": "and multiple paragraphs."
+  },
+  {
+    "type": "paragraph",
+    "raw": "[^second]: Footnote text.",
+    "text": "[^second]: Footnote text.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "[^second]: Footnote text.",
+        "text": "[^second]: Footnote text."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)\n\n",
+    "depth": 3,
+    "text": "[Definition lists](https://github.com/markdown-it/markdown-it-deflist)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[Definition lists](https://github.com/markdown-it/markdown-it-deflist)",
+        "href": "https://github.com/markdown-it/markdown-it-deflist",
+        "title": null,
+        "text": "Definition lists",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Definition lists",
+            "text": "Definition lists"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Term 1",
+    "text": "Term 1",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Term 1",
+        "text": "Term 1"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": ":   Definition 1\nwith lazy continuation.",
+    "text": ":   Definition 1\nwith lazy continuation.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": ":   Definition 1\nwith lazy continuation.",
+        "text": ":   Definition 1\nwith lazy continuation."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Term 2 with *inline markup*",
+    "text": "Term 2 with *inline markup*",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Term 2 with ",
+        "text": "Term 2 with "
+      },
+      {
+        "type": "em",
+        "raw": "*inline markup*",
+        "text": "inline markup",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "inline markup",
+            "text": "inline markup"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": ":   Definition 2",
+    "text": ":   Definition 2",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": ":   Definition 2",
+        "text": ":   Definition 2"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "code",
+    "raw": "        { some code, part of Definition 2 }\n\n    Third paragraph of definition 2.\n\n",
+    "codeBlockStyle": "indented",
+    "text": "    { some code, part of Definition 2 }\n\nThird paragraph of definition 2."
+  },
+  {
+    "type": "paragraph",
+    "raw": "_Compact style:_",
+    "text": "_Compact style:_",
+    "tokens": [
+      {
+        "type": "em",
+        "raw": "_Compact style:_",
+        "text": "Compact style:",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Compact style:",
+            "text": "Compact style:"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Term 1\n  ~ Definition 1",
+    "text": "Term 1\n  ~ Definition 1",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Term 1\n  ~ Definition 1",
+        "text": "Term 1\n  ~ Definition 1"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Term 2\n  ~ Definition 2a\n  ~ Definition 2b",
+    "text": "Term 2\n  ~ Definition 2a\n  ~ Definition 2b",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Term 2\n  ~ Definition 2a\n  ~ Definition 2b",
+        "text": "Term 2\n  ~ Definition 2a\n  ~ Definition 2b"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)\n\n",
+    "depth": 3,
+    "text": "[Abbreviations](https://github.com/markdown-it/markdown-it-abbr)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[Abbreviations](https://github.com/markdown-it/markdown-it-abbr)",
+        "href": "https://github.com/markdown-it/markdown-it-abbr",
+        "title": null,
+        "text": "Abbreviations",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Abbreviations",
+            "text": "Abbreviations"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "This is HTML abbreviation example.",
+    "text": "This is HTML abbreviation example.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This is HTML abbreviation example.",
+        "text": "This is HTML abbreviation example."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "It converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on.",
+    "text": "It converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "It converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on.",
+        "text": "It converts &quot;HTML&quot;, but keep intact partial entries like &quot;xxxHTMLyyy&quot; and so on."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "*[HTML]: Hyper Text Markup Language",
+    "text": "*[HTML]: Hyper Text Markup Language",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "*[HTML]: Hyper Text Markup Language",
+        "text": "*[HTML]: Hyper Text Markup Language"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### [Custom containers](https://github.com/markdown-it/markdown-it-container)\n\n",
+    "depth": 3,
+    "text": "[Custom containers](https://github.com/markdown-it/markdown-it-container)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[Custom containers](https://github.com/markdown-it/markdown-it-container)",
+        "href": "https://github.com/markdown-it/markdown-it-container",
+        "title": null,
+        "text": "Custom containers",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Custom containers",
+            "text": "Custom containers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "::: warning\n*here be dragons*\n:::\n",
+    "text": "::: warning\n*here be dragons*\n:::",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "::: warning\n",
+        "text": "::: warning\n"
+      },
+      {
+        "type": "em",
+        "raw": "*here be dragons*",
+        "text": "here be dragons",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "here be dragons",
+            "text": "here be dragons"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "raw": "\n:::",
+        "text": "\n:::"
+      }
+    ]
+  }
+]
