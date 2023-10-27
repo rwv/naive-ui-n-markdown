@@ -98,6 +98,10 @@ const renderFunction = (token: Token): Component | undefined => {
     }
   }
 
+  if (token.type === 'codespan') {
+    return h(NText, { code: true }, token.text);
+  }
+
 
   return undefined;
 };
