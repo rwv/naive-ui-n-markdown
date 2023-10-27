@@ -26,6 +26,7 @@ import {
   NUl,
   NLi,
   NA,
+  NImage,
 } from "naive-ui";
 
 const props = defineProps<{
@@ -127,6 +128,12 @@ const renderFunction = (token: Token): Component | undefined => {
       return h(NA, {}, token.text);
     }
   }
+
+  if (token.type === "image") {
+    return h(NImage, { src: token.href });
+  }
+
+
   return undefined;
 };
 </script>
