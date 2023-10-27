@@ -25,6 +25,7 @@ import {
   NOl,
   NUl,
   NLi,
+  NA,
 } from "naive-ui";
 
 const props = defineProps<{
@@ -119,6 +120,13 @@ const renderFunction = (token: Token): Component | undefined => {
 
   // FIXME: marked.lexer seems to not support table
 
+  if (token.type === "link") {
+    if (token.tokens && token.tokens.length > 0) {
+      return h(NA, {href: token.href}, token.tokens.map(renderFunction));
+    } else {
+      return h(NA, {}, token.text);
+    }
+  }
   return undefined;
 };
 </script>
